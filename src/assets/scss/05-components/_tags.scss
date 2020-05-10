@@ -1,0 +1,26 @@
+/**
+ * Block
+ */
+.c-tags {
+  // Empty for reference
+}
+
+/**
+ * Elements
+ */
+.c-tags__tag {
+  text-decoration: none;
+
+  &::before {
+    content: "#";
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+/**
+* Modifiers
+*/

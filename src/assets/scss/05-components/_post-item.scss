@@ -1,0 +1,46 @@
+/**
+ * Block
+ */
+.c-post-item {
+  // Empty for reference
+}
+
+/**
+ * Elements
+ */
+
+.c-post-item__quote {
+  font-family: $font-family-heading;
+  font-size: $font-size-large;
+}
+
+.c-post-item__footer {
+  padding: $supple-space-base;
+  font-size: $font-size-small;
+}
+
+.c-post-item__user-link {
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.c-post-item__date {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/**
+* Modifiers
+*/
+.c-post-item--original {
+  border: $border-base;
+}
+
+.c-post-item--original {
+  border: $border-base;
+}

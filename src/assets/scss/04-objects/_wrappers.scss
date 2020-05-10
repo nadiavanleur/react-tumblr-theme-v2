@@ -1,0 +1,12 @@
+.wrapper-inner {
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: $supple-space-large;
+  box-sizing: border-box;
+
+  @media screen and (min-width: $screen-sm) {
+  }
+
+  @media screen and (min-width: $screen-lg) {
+  }
+}

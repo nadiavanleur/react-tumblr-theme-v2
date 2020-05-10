@@ -1,0 +1,5 @@
+{
+    "editor.formatOnSave": true,
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/? ",
+    "editor.wordWrap": "wordWrapColumn"
+}

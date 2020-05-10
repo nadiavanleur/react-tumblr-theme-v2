@@ -1,0 +1,8 @@
+.c-sidebar {
+  padding: $supple-space-base;
+
+  @include mq($from: md) {
+    position: sticky;
+    top: 0;
+  }
+}

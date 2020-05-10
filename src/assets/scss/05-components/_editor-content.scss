@@ -1,0 +1,56 @@
+.c-editor-content {
+  video {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  iframe {
+    width: 100% !important;
+
+    &.soundcloud_audio_player {
+      // @TODO make square
+    }
+
+    &.tumblr_audio_player {
+      height: 85px; // From tumblr audio player
+    }
+  }
+
+  p,
+  blockquote {
+    margin-bottom: $supple-space-base;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ul {
+    padding-left: $supple-space-large;
+  }
+}
+
+.c-editor-content--body {
+  .c-post-item--original > & {
+    padding: $supple-space-base;
+    padding-bottom: 0;
+
+    figure {
+      margin-left: -$supple-space-base;
+      margin-right: -$supple-space-base;
+    }
+  }
+}
+
+.c-editor-content--caption,
+.c-editor-content--description {
+  & > p,
+  & > blockquote {
+    padding: 0;
+    margin: 0;
+  }
+
+  & > blockquote {
+    padding-left: $supple-space-base;
+  }
+}

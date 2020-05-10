@@ -1,0 +1,21 @@
+.c-button {
+  min-height: $a11y-size;
+  min-width: $a11y-size;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  background: transparent;
+  color: $color-black;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+
+  &:disabled {
+    color: $color-gray-700;
+    cursor: not-allowed;
+  }
+}
